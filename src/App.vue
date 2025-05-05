@@ -20,7 +20,7 @@ const divWidth = ref(0);
 const divHeight = ref(0);
 
 // EmployeeCard dimension
-const cardWidth = 260;
+const cardWidth = 270;
 const cardHeight = 320;
 
 // padding between cards
