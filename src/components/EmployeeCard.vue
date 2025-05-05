@@ -7,7 +7,7 @@
     </div>
     
     <!--Name-->
-    <div class="text-center font-bold"><slot name="name"></slot></div> 
+    <div class="text-center font-bold text-black"><slot name="name"></slot></div> 
     
     <!--Job Title-->
     <Typography class="text-gray-400">
@@ -17,13 +17,13 @@
     <!--tags-->
     <div class="flex-1 flex flex-col items-center gap-2">
       <div class="h-full flex flex-wrap justify-center content-around gap-2">
-        <div :class="['rounded-2xl px-2', color.tagColor]"><slot name="department"></slot></div>
-        <div :class="['rounded-2xl px-2', color.tagColor]"><slot name="location"></slot></div>
-        <div :class="['rounded-2xl px-2', color.tagColor]">Level:&nbsp;<slot name="level"></slot></div>
-        <div :class="['rounded-2xl px-2', color.tagColor]">Management Cost:&nbsp;<slot name="mc-cost"></slot></div>
-        <div :class="['rounded-2xl px-2', color.tagColor]">IC cost:&nbsp;<slot name="ic-cost"></slot></div>
-        <div :class="['rounded-2xl px-2', color.tagColor]">Total Cost:&nbsp;<slot name="total-cost"></slot></div>
-        <div :class="['rounded-2xl px-2', color.tagColor]">Management cost ratio:&nbsp;<slot name="ratio"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.tagColor]"><slot name="department"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.tagColor]"><slot name="location"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.tagColor]">Level:&nbsp;<slot name="level"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.tagColor]">Management Cost:&nbsp;<slot name="mc-cost"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.tagColor]">IC cost:&nbsp;<slot name="ic-cost"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.tagColor]">Total Cost:&nbsp;<slot name="total-cost"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.tagColor]">Management cost ratio:&nbsp;<slot name="ratio"></slot></div>
       </div>
 
       <button @click="onClick" class="rounded-2xl px-2 inline-flex items-center bg-[#71717a] text-white hover:cursor-pointer">

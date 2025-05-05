@@ -210,7 +210,7 @@ watch(visibleNodes, async (newNodes) => {
 </script>
 
 <template>
-  <div class="w-screen h-screen table overflow-scroll">
+  <div class="w-screen h-screen table overflow-scroll bg-white">
     <div class="table-cell align-middle text-center">
       <div :style="`width: ${divWidth}'px'; height: ${divHeight}px`" class="relative inline-block mt-6">
         
