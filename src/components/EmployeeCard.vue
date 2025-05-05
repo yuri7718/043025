@@ -17,7 +17,7 @@
     <!--tags-->
     <div class="flex-1 flex flex-col items-center gap-2">
       <div class="h-full flex flex-wrap justify-center content-around gap-2">
-        <div :class="['text-black rounded-2xl px-2', color.tagColor]"><slot name="department"></slot></div>
+        <div :class="['text-black rounded-2xl px-2', color.departmentColor]"><slot name="department"></slot></div>
         <div :class="['text-black rounded-2xl px-2', color.tagColor]"><slot name="location"></slot></div>
         <div :class="['text-black rounded-2xl px-2', color.tagColor]">Level:&nbsp;<slot name="level"></slot></div>
         <div :class="['text-black rounded-2xl px-2', color.tagColor]">Management Cost:&nbsp;<slot name="mc-cost"></slot></div>
